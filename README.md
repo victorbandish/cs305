@@ -1,1 +1,10 @@
 # cs305
+Artemis Financial is a consulting company that develops custom financial plans for its clients, including savings, retirement, and insurance strategies. Their request was to improve the security of their web-based application by identifying vulnerabilities and implementing secure communication practices, such as adding checksum verification for data transfer.
+
+When finding the vulnerabilities in the software, I did well in using tools like OWASP Dependency-Check to identify outdated dependencies and by manually reviewing the code for insecure practices. It is important to code securely to protect sensitive client information, maintain customer trust, and avoid potential data breaches. Strong software security directly supports a company’s overall health by protecting its operations and reputation.
+
+The most challenging part of the vulnerability assessment was understanding and resolving issues related to outdated third-party libraries, but it was helpful because it taught me how to use security reports to prioritize fixes. I increased security layers by adding SHA-256 checksum verification and generating a self-signed SSL certificate to ensure encrypted communication. In the future, I would continue using static analysis tools like OWASP Dependency-Check and consider threat modeling to choose the right mitigation strategies.
+
+To ensure the application remained functional and secure after refactoring, I tested all functionality manually and re-scanned the application for vulnerabilities. I also double-checked that the secure communications were operating correctly over HTTPS. The tools and practices I used—like Dependency-Check, Java Keytool, SHA-256 hashing, and secure coding principles—will be very helpful in future projects.
+
+For future employers, I would show my completed Vulnerability Assessment Report and Secure Software Report as evidence of my ability to find vulnerabilities, implement encryption, conduct secure coding, and maintain application functionality while improving security.
